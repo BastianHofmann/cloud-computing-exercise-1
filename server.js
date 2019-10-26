@@ -153,7 +153,7 @@ app.delete('/api/books/:id', (req, res) => {
       }
 
       res.json(book);
-    }):
+    });
   });
 });
 
